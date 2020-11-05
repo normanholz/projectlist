@@ -1,0 +1,36 @@
+{
+  "name": "projectlist",
+  "version": "0.0.1",
+  "description": "Learning project to display all my projects with React, GraphQL, and MongoDB. ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --ignore client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanholz/projectlist.git"
+  },
+  "author": "Norman Holz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/normanholz/projectlist/issues"
+  },
+  "homepage": "https://github.com/normanholz/projectlist#readme",
+  "dependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "body-parser": "1.19.0",
+    "css-loader": "0.28.11",
+    "express": "4.17.1",
+    "express-session": "1.17.1",
+    "html-webpack-plugin": "4.5.0",
+    "nodemon": "*",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "style-loader": "0.23.1",
+    "webpack": "5.4.0",
+    "webpack-dev-middleware": "4.0.0"
+  }
+}
