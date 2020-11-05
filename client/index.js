@@ -1,14 +1,17 @@
 import './style/style.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Router, Route, hashHistory, IndexRoute} from "react-router";
 import App from './components/App';
 import ProjectList from "./components/ProjectList";
 
 const Root = () => {
     return (
-        <App>
-            <ProjectList/>
-        </App>
+        <Router history={hashHistory}>
+            <Route path="/" component={App}>
+                <IndexRoute component={ProjectList}/>
+            </Route>
+        </Router>
     );
 };
 
